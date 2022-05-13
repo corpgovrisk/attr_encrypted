@@ -20,5 +20,5 @@ if defined?(DataMapper)
     end
   end
 
-  DataMapper::Resource.extend AttrEncrypted::Adapters::DataMapper
+  AttrEncrypted::Adapters::DataMapper::Resource.extend AttrEncrypted::Adapters::DataMapper
 end
